@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_relative"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/b1"
+    tools:context="com.coalescebd.spotwifi.MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_text"
+        android:textColor="@color/primary_light1"
+        android:textSize="@dimen/_30ssp" />
+
+    <TextView
+        android:id="@+id/txt_appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_welcome"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:gravity="center_horizontal"
+        android:text="@string/app_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@color/accentYellow"
+        android:textSize="@dimen/_45ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_connecting"
+        android:layout_centerHorizontal="true"
+        android:text="@string/wait_text"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/light_blue"/>
+
+    <TextView
+        android:id="@+id/txt_connecting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/_11sdp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/btn_connect_to_internet"
+        android:textColor="@color/light_green"
+        android:textSize="@dimen/_20ssp"
+        android:visibility="visible" />
+
+    <VideoView
+        android:id="@+id/adVideo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_appName"
+        android:layout_marginTop="@dimen/_19sdp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/relativeLayout3">
+
+        <ImageView
+            android:id="@+id/img_coalesce"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/coalesce" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/bbdlogo" />
+
+        <TextView
+            android:id="@+id/txt_poweredBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="@string/poweredBy_text"
+            android:textSize="@dimen/_13ssp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

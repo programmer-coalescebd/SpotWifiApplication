@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SpotWifiApplication</string>
+    <string name="app_label">Spot WiFi</string>
+    <string name="wait_text">Please Wait</string>
+    <string name="welcome_text">Welcome to the world of</string>
+    <string name="ad_contains_text">This app serves ads &amp; offers while using</string>
+    <string name="disclaimer_text">By downloading and using this application you are agreed to all the Terms and conditions provided by Spot WIFI. COALESCE PVT. LTD shall not be responsible for any illegal activities of the users. COALESCE PVT. LTD reserves the right to make additions, deletions or modifications to the contents on the Service at any time without prior notice.</string>
+    <string name="poweredBy_text">Powered By</string>
+    <string name="btn_connect_to_internet">Connecting to Internet</string>
+    <string name="btn_connected">Connected !!</string>
+    <string name="disclaimer_title_text">Disclaimer</string>
+    <string name="ad_url">/getAdPathSerial?serial=</string>
+    <string name="is_connected_url">/isConnected</string>
+    <string name="mac_url">/addMac?mac=</string>
+    <string name="is_internet_url">/isInternetEnabled?mac=</string>
+    <string name="global_server">http://104.237.58.82</string>
+    <string name="ad_count">/getAdCount</string>
+    <string name="yes">OK</string>
+    <string name="url_viewCount">http://104.237.58.82/fileentry/view/</string>
+</resources>
